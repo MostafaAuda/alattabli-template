@@ -1,0 +1,93 @@
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-12 mb-5">
+          <img class="footer__logo" src="assets/img/footer-logo.png" alt="Al Attabi Logo">
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <div class="footer__info">
+              <strong>Email</strong>
+              <a href="mailto:Alattabi.construction@gmail.com"> Alattabi.construction@gmail.com</a>
+              <div class="mb-3"></div>
+              <strong>Phone</strong>
+              <a href="tel:+02-38952748"> 02-38952748</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="footer__info">
+            <strong>West Square mall Head office</strong>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Alattabi offices 3rd floor West Square Mall, beverly Hills gate 6, Sodic West </a>
+            <div class="mb-3"></div>
+            <strong>Alattabi Center office Cairo – El Sheikh Zayed</strong>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Alattabi offices 2nd floor Eleventh district  alattabi center</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <div class="footer__projects">
+            <a href="http://" target="_blank" rel="noopener noreferrer">Project Alattabi offices</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Project Alattabi offices</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Project Alattabi offices</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Project Alattabi offices</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Project Alattabi offices</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Project Alattabi offices</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2 mb-3">
+          <div class="footer__icons">
+            <a aria-label="Instagram" href="index.html"><i class="fab fa-instagram"></i> Instagram</a>
+            <a aria-label="Youtube" href="index.html"><i class="fab fa-youtube"></i> Youtube</a>
+            <a aria-label="Whatsapp" href="index.html"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+            <a aria-label="LinkedIn" href="index.html"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            <a aria-label="Facebook" href="index.html"><i class="fab fa-facebook-square"></i> Facebook</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+  
+  <!-- JQuery Library -->
+  <script src="assets/vendors/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="assets/vendors/bootstrap.bundle.min.js"></script>
+
+  <!-- Animate on scroll -->
+  <script src="assets/vendors/aos.js"></script>
+
+  <!-- FancyBox -->
+  <script src="assets/vendors/fancybox.umd.js"></script>
+
+  <!-- Swiper -->
+  <script src="assets/vendors/swiper-bundle.min.js"></script>
+
+  <!-- Sweet Alert -->
+  <script src="assets/vendors/sweetalert2.js"></script>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    const Toast = Swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 5000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+      }
+    })
+
+    Toast.fire({
+      icon: 'success',
+      title: 'Initiated successfully'
+    })
+  </script>
+  
+</body>
+</html>

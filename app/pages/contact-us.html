@@ -1,0 +1,76 @@
+@@include('../layout/meta-head.html')
+
+  <title>AL ATTABI Contact US</title>
+
+@@include('../layout/rel-head.html')
+
+@@include('../layout/common-header.html')
+
+  <!-- Contact US -->
+  <section class="contactus common__texture">
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="common__title"> Contact US </h1>
+        </div>
+        <div class="contactus__data col-12 col-lg-6">
+          <h4> lOREUM iPSUM </h4>
+          <h2> GET IN TOUCH WITH US </h2>
+        </div>
+        <div class="contactus__margin"></div>
+
+        <div class="common_figure__style1">
+          <div class="row">
+            <div class="col-12 col-lg-6 d-flex align-items-center mobile__order">
+              <p class="font-secondary">
+                Start with what you have now. If you’re early in your career, the most important thing is to get your work out there and keep growing.
+                Even if you’re not 100% confident the work is perfect or you don’t know exactly what to say about everything
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 mobile__order" data-aos="fade-up">
+              <img class="common_figure__style_img" src="assets/img/contactus.jpg" alt="Project Image">
+            </div>
+          </div>
+          <form class="row needs-validation" novalidate>
+            <div class="col-12 col-md-6 mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" value="" required placeholder="Name">
+              <div class="invalid-feedback">
+                Please provide a name.
+              </div>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" value="" placeholder="Email">
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <label for="phone" class="form-label">Mobile Number</label>
+              <input type="tel" class="form-control phone_validation" id="phone" value="" required placeholder="01xxxxxxxxx">
+              <div class="invalid-feedback">
+                Please provide a mobile number. 
+              </div>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <label for="jobTitle" class="form-label">Job Title</label>
+              <input type="text" class="form-control" id="jobTitle" value="" placeholder="Job Title">
+            </div>
+            <div class="col-12 mb-3">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a message" id="message" required></textarea>
+                <label for="message">Message</label>
+                <div class="invalid-feedback">
+                  Please provide a message. 
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact US -->
+
+@@include('../layout/footer.html')
